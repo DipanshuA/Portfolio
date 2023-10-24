@@ -1,22 +1,21 @@
-import skill1 from '../assets/skills1.png'
-import skill3 from '../assets/skills3.png'
+
 const Skills = () => {
 
     const skills = [
         {
             id: 1,
             name: "Web Development", description: 'A web developer designs and builds websites and web applications, ensuring functionality and user experience.',
-            image: {skill1}
+            image: '/src/assets/skills1.png'
         },
         {
             id: 2,
             name: "MERN Stack", description: 'Learning MERN involves mastering the essential technologies (MongoDB, Express.js, React, Node.js) for building modern web applications.',
-            image: {skill1}
+            image: '/src/assets/skills1.png'
         },
         {
             id: 3,
             name: "Photography", description: 'Mastering the art of photography to capture moments with creativity and precision.',
-            image: {skill3}
+            image: '/src/assets/skills3.png'
         }
 
     ]
