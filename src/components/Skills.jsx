@@ -17,7 +17,7 @@ const Skills = () => {
         {
             id: 3,
             name: "Photography", description: 'Mastering the art of photography to capture moments with creativity and precision.',
-            image: {skill3}
+            image: '../assets/skills3.png'
         }
 
     ]
