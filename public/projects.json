@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Weather Checker",
+        "description": "A weather application that provides realtime weather information ",
+        "image": "src/assets/Project1.png",
+        "link": "https://dipanshu-weather-app.netlify.app/"
+    },
+    {
+        "id": 2,
+        "name": "RazorPay Clone",
+        "description": "Designed a clone app, while gaining hands-on experience on design",
+        "image": "src/assets/Project2.png",
+        "link": "https://dipanshu-razorpay.netlify.app/"
+    },
+    {
+        "id": 3,
+        "name": "Tic Tac Toe",
+        "description": "Interactive tic tac toe game with clean design and smooth gameplay",
+        "image": "src/assets/Project3.png",
+        "link": "https://ds-tic-tac-toe.netlify.app/"
+    }
+]
