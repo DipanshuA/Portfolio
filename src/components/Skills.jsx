@@ -1,4 +1,5 @@
-
+import skill1 from '../assets/skills1.png'
+import skill3 from '../assets/skills3.png'
 
 const Skills = () => {
 
@@ -6,17 +7,17 @@ const Skills = () => {
         {
             id: 1,
             name: "Web Development", description: 'A web developer designs and builds websites and web applications, ensuring functionality and user experience.',
-            image: "/src/assets/skills1.png"
+            image: {skill1}
         },
         {
             id: 2,
             name: "MERN Stack", description: 'Learning MERN involves mastering the essential technologies (MongoDB, Express.js, React, Node.js) for building modern web applications.',
-            image: "/src/assets/skills1.png"
+            image: {skill1}
         },
         {
             id: 3,
             name: "Photography", description: 'Mastering the art of photography to capture moments with creativity and precision.',
-            image: "/src/assets/skills3.png"
+            image: {skill3}
         }
 
     ]
