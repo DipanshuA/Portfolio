@@ -11,17 +11,17 @@ const Skills = () => {
         {
             id: 1,
             name: "Web Development", description: 'A web developer designs and builds websites and web applications, ensuring functionality and user experience.',
-            image: 'src/assets/skillA.jpg'
+            image: '../assets/Skills1.jpg'
         },
         {
             id: 2,
             name: "MERN Stack", description: 'Learning MERN involves mastering the essential technologies (MongoDB, Express.js, React, Node.js) for building modern web applications.',
-            image: '/src/assets/skillA.jpg'
+            image: '../assets/Skills1.jpg'
         },
         {
             id: 3,
             name: "Photography", description: 'Mastering the art of photography to capture moments with creativity and precision.',
-            image:  '/src/assets/skillC.jpg'
+            image:  '../assets/Skills2.jpg'
         }
 
     ]
