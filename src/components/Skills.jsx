@@ -1,4 +1,7 @@
 
+import React from 'react'
+
+import skillA from '../assets/skillA.jpg'
 
 
 
@@ -8,7 +11,7 @@ const Skills = () => {
         {
             id: 1,
             name: "Web Development", description: 'A web developer designs and builds websites and web applications, ensuring functionality and user experience.',
-            image: '/src/skillA.jpg'
+            image: {skillA}
         },
         {
             id: 2,
@@ -18,7 +21,7 @@ const Skills = () => {
         {
             id: 3,
             name: "Photography", description: 'Mastering the art of photography to capture moments with creativity and precision.',
-            image:  '/src/skillC.jpg'
+            image:  ''
         }
 
     ]
