@@ -1,22 +1,24 @@
 
 
+
+
 const Skills = () => {
 
     const skills = [
         {
             id: 1,
             name: "Web Development", description: 'A web developer designs and builds websites and web applications, ensuring functionality and user experience.',
-            image: './skillA.jpg'
+            image: '/src/skillA.jpg'
         },
         {
             id: 2,
             name: "MERN Stack", description: 'Learning MERN involves mastering the essential technologies (MongoDB, Express.js, React, Node.js) for building modern web applications.',
-            image: './skillB.jpg'
+            image: '/src/skillA.jpg'
         },
         {
             id: 3,
             name: "Photography", description: 'Mastering the art of photography to capture moments with creativity and precision.',
-            image: '../assets/skillC.jpg'
+            image:  '/src/skillC.jpg'
         }
 
     ]
