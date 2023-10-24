@@ -1,4 +1,4 @@
-
+import { FaCode,FaAtom,FaCamera } from "react-icons/fa6";
 
 const Skills = () => {
 
@@ -6,17 +6,17 @@ const Skills = () => {
         {
             id: 1,
             name: "Web Development", description: 'A web developer designs and builds websites and web applications, ensuring functionality and user experience.',
-            "image": '/src/assets/skills1.png'
+            icon: <FaCode />
         },
         {
             id: 2,
             name: "MERN Stack", description: 'Learning MERN involves mastering the essential technologies (MongoDB, Express.js, React, Node.js) for building modern web applications.',
-            "image":'/src/assets/skills1.png'
+            icon: <FaAtom/>
         },
         {
             id: 3,
             name: "Photography", description: 'Mastering the art of photography to capture moments with creativity and precision.',
-            "image":  '/src/assets/skills2.png'
+            icon: <FaCamera/>
         }
 
     ]
@@ -36,7 +36,7 @@ const Skills = () => {
                     skills.map((skill) => <div className="p-8 bg-bgShade rounded-lg cursor-pointer
                     hover:-translate-y-3 transition-all duration-300 skillcard"
                         key={skill.id}>
-                        <img src={skill.image} alt="" className="w-14 h-14 bg-white rounded-lg shadow-md mb-7 p-3" />
+                        <i className="  p-10 text-3xl pl-12 ">{skill.icon}</i>
                         <h3 className="text-2xl font-bold mb-4">{skill.name}</h3>
                         <p>{skill.description}</p>
                     </div>)
