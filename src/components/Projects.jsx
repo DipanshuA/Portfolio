@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { FaGithub } from "react-icons/fa"
+import arrow from '../assets/arrow.png'
 
 
 const Projects = () => {
@@ -31,8 +32,8 @@ const Projects = () => {
                             <div className="p-8">
                                 <h3 className="text-2xl font-semibold mb-2 text-headingcolor ">{project.name}</h3>
                                 <p className="text-body mb-4">{project.description}</p>
-                                <a className="underline underline-offset-4 hover:text-primary" href={project.link}>Live Link <img src="/src/assets/arrow.png" alt=""
-                                    className="w-3 inline-block ml-3 " /></a>
+                                <a className="underline underline-offset-4 hover:text-primary" href={project.link}>Live Link <img src={arrow} alt=""
+                                    className="w-3 inline-block ml-3" /></a>
                             </div>
                         </div>
                         )
