@@ -1,6 +1,5 @@
 import skill1 from '../assets/skills1.png'
 import skill3 from '../assets/skills3.png'
-
 const Skills = () => {
 
     const skills = [
@@ -17,7 +16,7 @@ const Skills = () => {
         {
             id: 3,
             name: "Photography", description: 'Mastering the art of photography to capture moments with creativity and precision.',
-            image: '../assets/skills3.png'
+            image: {skill3}
         }
 
     ]

@@ -3,6 +3,7 @@ import { FaGithub } from "react-icons/fa"
 import arrow from '../assets/arrow.png'
 
 
+
 const Projects = () => {
     const [projects, setProjects] = useState([])
 
