@@ -30,7 +30,7 @@ const Navbar = () => {
 
 
                     <Link to='home' smooth={true} offset={-100} className='cursor-pointer flex '>
-                        <img src={logo} alt="logo" className='w-40' loading='lazy' />
+                        <img src={logo} alt="logo" className='w-40'  />
 
                     </Link>
                     <div className='lg:flex items-center gap-7 hidden text-body text-lg'>
