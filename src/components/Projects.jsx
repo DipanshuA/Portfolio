@@ -29,7 +29,7 @@ const Projects = () => {
                     {
                         projects.map(project => <div key={project.id}
                             className="shadow-xl rounded-lg cursor-pointer hover:scale-95 transition-all duration-200 bg-white">
-                            <img src={project.image} alt={""} className=" rounded-md " />
+                            <img src={project.image} alt={""} loading='lazy'  className=" rounded-md " />
                             <div className="p-8">
                                 <h3 className="text-2xl font-semibold mb-2 text-headingcolor ">{project.name}</h3>
                                 <p className="text-body mb-4">{project.description}</p>

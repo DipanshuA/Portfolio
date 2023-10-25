@@ -4,7 +4,7 @@ const Home = () => {
         <div className="mt-16 bg-bgShade  " id='home'>
             <div className="lg:px-16 px-4 flex flex-col md:flex-row-reverse items-center justify-between py-24 gap-5 ">
                 <div className='md:w-1/2 w-full'>
-                    <img src={bannerImg} alt="banner" className='w-full' />
+                    <img src={bannerImg} alt="banner" className='w-full' loading='lazy'  />
                 </div>
                 <div className='md:w-1/2  max-w-[600px] mt-5'>
                     <h3 className="text-xl text-headingColor font-semibold mb-5 ">Hey, I am Dipanshu</h3>
